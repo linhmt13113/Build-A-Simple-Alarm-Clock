@@ -6,3 +6,41 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+body,
+.wrapper,
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  padding: 0 10px;
+  min-height: 100vh;
+  background: #eb9999;
+}
+
+.wrapper {
+  width: 440px;
+  padding: 30px 30px 38px;
+  background: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper img {
+  max-width: 103px;
+}
+
+.wrapper h1 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 3 0px 0;
+}
+
+.wrapper .content {
+  width: 100%;
+  justify-content: space-between;
+}
